@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Input } from './ui/input'
 import { CiSearch } from "react-icons/ci";
+
 const SearchBar = () => {
     const [search, setSearch] = useState('')
     
